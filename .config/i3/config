@@ -144,7 +144,7 @@ workspace 6 output DP-2
 workspace 8 output DP-2 
 workspace 10 output DP-2 
 
-exec_always picom --experimental-backends -b
-exec_always xrandr --output DP-4 --mode 3440x1440 --rate 143.92 --primary --output DP-2 --mode 3440x1440 --rate 74.98 --above DP-4
+exec_always --no-startup-id picom --experimental-backends -b
+exec_always --no-startup-id xrandr --output DP-4 --mode 3440x1440 --rate 143.92 --primary --output DP-2 --mode 3440x1440 --rate 74.98 --above DP-4
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
-exec_always nitrogen --restore &
+exec_always --no-startup-id nitrogen --restore

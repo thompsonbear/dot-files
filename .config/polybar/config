@@ -260,8 +260,8 @@ format-disconnected =
 type = internal/date
 interval = 5
 
-date = "%B %d, %Y"
-date-alt = "%B %d, %Y"
+date = "%A %B %d, %Y"
+date-alt = "%A %B %d, %Y"
 
 format-prefix = 
 format-prefix-foreground = ${colors.foreground-alt}

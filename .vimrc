@@ -4,6 +4,10 @@ call plug#begin()
 Plug 'mattn/emmet-vim'
 let g:user_emmet_leader_key=','
 
+Plug 'sheerun/vim-polyglot'
+
+Plug 'turbio/bracey.vim'
+
 " Vim Configuration
 set number
 set nocompatible
@@ -11,7 +15,7 @@ filetype on
 filetype plugin on
 filetype indent on
 
-syntax on
+" syntax on
 
 set cursorline
 hi CursorLine cterm=NONE ctermbg=237
